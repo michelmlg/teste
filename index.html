@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" async></script>
+    <title>Programa de Empréstimos</title>
+</head>
+<body>
+    <!--<form onsubmit="return false">-->
+    <form id="meuform">
+        <h1>Calcular Empréstimo</h1>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" autofocus required>
+
+        <label for="date">Data de admissão:</label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="salary">Salário atual:</label>
+        <input type="number" name="salary" id="salary" required>
+
+        <label for="loanValue">Valor do empréstimo:</label>
+        <input type="number" name="loanValue" id="loanValue"required>
+
+        <button id="btnCalcular" type="submit">Calcular</button>
+        <p id="saida">[Resposta vai aparecer aqui]</p>
+        <div id="resultado"></div>
+    </form>
+    <!--<p id="saida">[Resposta vai aparecer aqui]</p>-->
+    <!--<div id="resultado"></div>-->
+</body>
+</html>

@@ -1,0 +1,54 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(66, 111, 195);
+}
+h1
+{
+    color: cornflowerblue;
+}
+label{
+    font-size: 1.5rem;
+}
+input
+{
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: #cccccc;
+    width: 95%;
+}
+button:hover{
+    background-color: rgb(57, 84, 136);
+    color: rgb(255,255,255);
+    transition: 0.25s
+}
+p{
+    color: #c4bdbd;
+    padding: 1rem;
+}
+form 
+{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 16px;
+    background-color:white;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: rgb(157, 178, 218);
+}
+button
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: cornflowerblue;
+    width: 25%;
+}
